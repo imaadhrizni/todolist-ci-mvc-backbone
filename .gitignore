@@ -1,3 +1,4 @@
+### CodeIgniter ###
 */config/development
 */logs/log-*.php
 !*/logs/index.html
@@ -15,3 +16,14 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+### CodeIgniter Patch ###
+#codeigniter 3
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
